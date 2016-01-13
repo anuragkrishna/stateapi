@@ -18,10 +18,19 @@ Sample Request:
 
 4. http://usstateapi-pzero.rhcloud.com/state?sortBy=name&order=asc&offset=6&limit=20
 
-5. http://usstateapi-pzero.rhcloud.com/state/<state_abbreviation>
+5. http://usstateapi-pzero.rhcloud.com/state/{state_abbreviation}
+
    Ex - http://usstateapi-pzero.rhcloud.com/state/al
    
-Error Handling (Bad Request) : for offset/limit out of bound,offset/limit should only be digits state_abbreviation not valid, sortBy/order currently, not supported   
+Error Handling (Bad Request) : 
+
+ offset/limit out of bound
+ 
+ offset/limit should only be digits,
+ 
+ state_abbreviation not valid, 
+ 
+ sortBy/order currently not supported   
    
 Local Hosting:
 
