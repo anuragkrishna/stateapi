@@ -3,6 +3,8 @@ Rest API for retrieving all states in USA
 
 This application is currently hosted on http://usstateapi-pzero.rhcloud.com/
 
+Default Values - sortBy=name, order=asc, offset=1, limit=10
+
 Sample Request:
 
 1. http://usstateapi-pzero.rhcloud.com/
