@@ -5,7 +5,6 @@ This application is currently hosted on http://usstateapi-pzero.rhcloud.com/
 
 Sample Request:
 
-
 1. http://usstateapi-pzero.rhcloud.com/
 
 2. http://usstateapi-pzero.rhcloud.com/state
@@ -21,6 +20,7 @@ Sample Request:
 5. http://usstateapi-pzero.rhcloud.com/state/{state_abbreviation}
 
    Ex - http://usstateapi-pzero.rhcloud.com/state/al
+ 
    
 Error Handling (Bad Request) : 
 
@@ -31,6 +31,7 @@ Error Handling (Bad Request) :
  state_abbreviation not valid, 
  
  sortBy/order currently not supported   
+ 
    
 Local Hosting:
 
