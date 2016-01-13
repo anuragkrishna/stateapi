@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 
 @app.route('/', methods=['GET'])
-def index(offset=1, limit=10, sortBy='name', order='asc'):
+def index():
 	return make_response("Welcome! Please go to /state for a list of states in USA.")
 
 
